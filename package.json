@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "papaparse": "^5.3.2",
+    "xlsx": "^0.18.4"
+  },
+  "devDependencies": {
+    "node-xlsx": "^0.21.0"
+  },
+  "type": {
+    "module": "commonjs"
+  }
+}

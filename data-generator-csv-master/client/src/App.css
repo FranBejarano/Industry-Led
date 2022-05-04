@@ -1,0 +1,312 @@
+.main-box {
+  text-align: center;
+}
+
+.App {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+
+
+
+#button-div-api, #button-div-data {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #1553a8;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  height: 200px;
+  
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  height: 20px;
+}
+
+select {
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  height: 20px;
+  padding-left: auto;
+}
+
+.btn-container {
+  text-align: center;
+  
+} 
+
+#object-props {
+  padding-bottom: 140px;
+  text-align: left;
+  
+}
+
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#data-link {
+  padding-right: 20px;
+}
+
+#data-link-div {
+  padding-left: 10px;
+}
+
+#btn-add-prop, #btn-down-xml, #btn-gen-xml, #btn-arr-xml, #btn-res-xml, #btn-gen-data, #btn-res-data, #btn-rem-data, #btn-clear-object, #btn-add-custom, #btn-gen-csv, #btn-resCSV-data, #btn-get-data, #btn-arr-data, #btn-add-data-first, #btn-add-data-last, #btn-add-data-email, #btn-add-data-address {
+  width: 180px;
+  height: 20px;
+  border: 0;
+  padding: 0;
+  background-color: #57D5A8;
+  color: white;
+  border-radius: 10px;
+
+}
+
+
+
+#btn-download-data {
+  width: 180px;
+  height: 20px;
+  border: 0;
+  padding: 0;
+  background-color: #57D5A8;
+  color: white;
+  border-radius: 10px;
+}
+
+#all-forms {
+  display: grid;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#btn-add-data-first {
+  width: 180px;
+  height: 20px;
+  border: 0;
+  padding: 0;
+  background-color: #57D5A8;
+  color: white;
+  
+}
+
+#custom-container {
+  display: grid;
+  grid-template-columns: auto;
+  border: solid 1px #1553a8;
+  padding: 20px;
+  background-color: #1553a8;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  height: 200px;
+  
+}
+
+#selection-container {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #1553a8;
+  padding: 20px;
+  background-color: #1553a8;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+
+#properties {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #1553a8;
+  padding: 20px;
+  background-color: #1553a8;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  height: 200px;
+  
+  
+}
+
+#form-div {
+  display: grid;
+  grid-template-columns: auto;
+  border: solid 1px #1553a8;
+  padding: 20px;
+  background-color: #1553a8;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+
+#name-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+#object {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 8px;
+  border: solid 1px #1553a8;
+  padding: 20px;
+  background-color: #1553a8;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  height: 200px;
+
+}
+
+#select-key-label {
+  padding-bottom: 20px;
+}
+
+#select-key-drop {
+  padding-bottom: 20px;
+}
+
+#select-key-drop-initial {
+  padding-bottom: 100px;
+}
+
+#select-additional-options {
+  padding-bottom: 20px;
+}
+
+#select-additional-drop {
+  padding-bottom: 20px;
+}
+
+#api-label, #api-input, #entries-label  {
+  padding-bottom: 20px;
+}
+
+#csv {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #1553a8;
+ 
+  padding: 20px;
+  background-color: #1553a8;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+
+#logo-header {
+  color: white;
+  
+}
+
+#logo-img {
+  height: 100px;
+ 
+}
+
+#error-box {
+  display: grid;
+  grid-template-columns: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+  background-color: pink;
+  border: red solid 1px;
+  width: 400px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+#btn-error-confirm {
+  width: 180px;
+  height: 20px;
+  border: 0;
+  padding: 0;
+  background-color: #57D5A8;
+  color: white;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 800px){
+  #logo-img {
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+}
+
+@media screen and (max-width: 800px){
+  .App {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #error-box {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: red;
+    background-color: pink;
+    border: red solid 1px;
+    width: 200px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  #btn-error-confirm {
+    width: 90px;
+    height: 20px;
+    border: 0;
+    padding: 0;
+    background-color: #57D5A8;
+    color: white;
+    border-radius: 10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+{
+    "include": [
+        "./node_modules/cypress",
+        "cypress/**/*.js"
+, "cypress/fixtures/generated_data.spec.mjs"    ]
+}
