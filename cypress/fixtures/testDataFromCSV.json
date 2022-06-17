@@ -1,142 +1,100 @@
-[
+{
+  "data": [
     {
-        "firstName": "Barbara",
-        "lastName": "Smith",
-        "email": "barbarasmith@live.com",
-        "address": "123 Fake Lane, Fakeland, G12 3RE",
-        "vehicle": "Vauxhall Astra"
+      "o;?\"phoneNo\"": "01528618703",
+      "firstName": "Jessica",
+      "lastName": "Brown",
+      "email": "jessicabrown@live.com",
+      "address": "22, Glendale Road, stirling FK11 5TY",
+      "vehicle": "Audi A1"
     },
     {
-        "firstName": "Andrew",
-        "lastName": "Montgomery",
-        "email": "andrewmontgomery@aol.com",
-        "address": "1, Glasgow Road, Edinburgh, EH56 4RE",
-        "vehicle": "Mercedes-Benz C Class Coupe"
+      "o;?\"phoneNo\"": "0116123620",
+      "firstName": "Christopher",
+      "lastName": "Anderson",
+      "email": "christopheranderson@aol.com",
+      "address": "64, Busy Street, London, W2 3RT",
+      "vehicle": "Land Rover Discovery"
     },
     {
-        "firstName": "Sarah",
-        "lastName": "Barry",
-        "email": "sarahbarry@outlook.com",
-        "address": "150, Inglewood Avenue, Bradford,BD45 3RE",
-        "vehicle": "Ford Ka"
+      "o;?\"phoneNo\"": "0161833198",
+      "firstName": "Bernard",
+      "lastName": "Murray",
+      "email": "bernardmurray@outlook.com",
+      "address": "10, Pinetree Avenue, Lenzie, G66 7YU",
+      "vehicle": "Range Rover Sport"
     },
     {
-        "firstName": "Matthew",
-        "lastName": "Montgomery",
-        "email": "matthewmontgomery@googlemail.com",
-        "address": "1, Glasgow Road, Edinburgh, EH56 4RE",
-        "vehicle": "Vauxhall Corsa"
+      "o;?\"phoneNo\"": "01872900988",
+      "firstName": "Patricia",
+      "lastName": "Martin",
+      "email": "patriciamartin@outlook.com",
+      "address": "22, Glendale Road, stirling FK11 5TY",
+      "vehicle": "Audi A1"
     },
     {
-        "firstName": "Oscar",
-        "lastName": "Barry",
-        "email": "oscarbarry@gmail.com",
-        "address": "32, Man Street, Leeds, LS1 2EE",
-        "vehicle": "Range Rover Vogue"
+      "o;?\"phoneNo\"": "0161904591",
+      "firstName": "Bobby",
+      "lastName": "Smith",
+      "email": "bobbysmith@googlemail.com",
+      "address": "32, Man Street, Leeds, LS1 2EE",
+      "vehicle": "Audi R8"
     },
     {
-        "firstName": "Joshua",
-        "lastName": "Brown",
-        "email": "joshuabrown@aol.com",
-        "address": "44, Anfield road, Liverpool, L12 7TY",
-        "vehicle": "Ford Fiesta ST"
+      "o;?\"phoneNo\"": "01526560863",
+      "firstName": "Michael",
+      "lastName": "Murray",
+      "email": "michaelmurray@hotmail.com",
+      "address": "44, Anfield road, Liverpool, L12 7TY",
+      "vehicle": "Audi R8"
     },
     {
-        "firstName": "William",
-        "lastName": "McGregor",
-        "email": "williammcgregor@aol.com",
-        "address": "1, Glasgow Road, Edinburgh, EH56 4RE",
-        "vehicle": "Range Rover Evoque"
+      "o;?\"phoneNo\"": "0151182182",
+      "firstName": "James",
+      "lastName": "Brown",
+      "email": "jamesbrown@googlemail.com",
+      "address": "1, Glasgow Road, Edinburgh, EH56 4RE",
+      "vehicle": "Ford Galaxy"
     },
     {
-        "firstName": "Sarah",
-        "lastName": "Barry",
-        "email": "sarahbarry@outlook.com",
-        "address": "98 Edinburgh Road, Livingston, EH54 3RE",
-        "vehicle": "Audi A4"
+      "o;?\"phoneNo\"": "0117951650",
+      "firstName": "Lisa",
+      "lastName": "Weir",
+      "email": "lisaweir@hotmail.com",
+      "address": "64, Busy Street, London, W2 3RT",
+      "vehicle": "Mercedes-Benz C Class AMG"
     },
     {
-        "firstName": "Michelle",
-        "lastName": "Smith",
-        "email": "michellesmith@hotmail.co.uk",
-        "address": "Grand Arcade, Lisington lane, London, W1 6TY",
-        "vehicle": "Mercedes-Benz C Class AMG"
+      "o;?\"phoneNo\"": "01202374378",
+      "firstName": "Stephen",
+      "lastName": "Baxter",
+      "email": "stephenbaxter@googlemail.com",
+      "address": "32, Man Street, Leeds, LS1 2EE",
+      "vehicle": "Vauxhall Astra"
     },
     {
-        "firstName": "Barbara",
-        "lastName": "James",
-        "email": "barbarajames@live.com",
-        "address": "44, Anfield road, Liverpool, L12 7TY",
-        "vehicle": "Audi A4"
-    },
-    {
-        "firstName": "Nancy",
-        "lastName": "Weir",
-        "email": "nancyweir@live.com",
-        "address": "150, Inglewood Avenue, Bradford,BD45 3RE",
-        "vehicle": "Mercedes-Benz C Class Coupe"
-    },
-    {
-        "firstName": "Stephen",
-        "lastName": "Murray",
-        "email": "stephenmurray@live.co.uk",
-        "address": "123 Fake Lane, Fakeland, G12 3RE",
-        "vehicle": "Vauxhall Astra"
-    },
-    {
-        "firstName": "Ashley",
-        "lastName": "Murray",
-        "email": "ashleymurray@aol.com",
-        "address": "64, Busy Street, London, W2 3RT",
-        "vehicle": "Audi A4"
-    },
-    {
-        "firstName": "Thomas",
-        "lastName": "Anderson",
-        "email": "thomasanderson@gmail.com",
-        "address": "64, Busy Street, London, W2 3RT",
-        "vehicle": "Audi A1"
-    },
-    {
-        "firstName": "Daniel",
-        "lastName": "James",
-        "email": "danieljames@hotmail.com",
-        "address": "1, Glasgow Road, Edinburgh, EH56 4RE",
-        "vehicle": "Range Rover Evoque"
-    },
-    {
-        "firstName": "Michael",
-        "lastName": "Norman",
-        "email": "michaelnorman@outlook.com",
-        "address": "1, Glasgow Road, Edinburgh, EH56 4RE",
-        "vehicle": "Land Rover Discovery"
-    },
-    {
-        "firstName": "Andrew",
-        "lastName": "McGregor",
-        "email": "andrewmcgregor@helloworld.com",
-        "address": "44, Anfield road, Liverpool, L12 7TY",
-        "vehicle": "Audi R8"
-    },
-    {
-        "firstName": "Barbara",
-        "lastName": "Martin",
-        "email": "barbaramartin@googlemail.com",
-        "address": "10, Pinetree Avenue, Lenzie, G66 7YU",
-        "vehicle": "Mercedes-Benz C Class Coupe"
-    },
-    {
-        "firstName": "Richard",
-        "lastName": "Brown",
-        "email": "richardbrown@example.com",
-        "address": "32, Man Street, Leeds, LS1 2EE",
-        "vehicle": "Vauxhall Adam"
-    },
-    {
-        "firstName": "Joanna",
-        "lastName": "Lescott",
-        "email": "joannalescott@hotmail.co.uk",
-        "address": "Grand Arcade, Lisington lane, London, W1 6TY",
-        "vehicle": "Ford Focus ST"
+      "o;?\"phoneNo\"": "0151181584",
+      "firstName": "Sarah",
+      "lastName": "Brown",
+      "email": "sarahbrown@hotmail.co.uk",
+      "address": "32, Man Street, Leeds, LS1 2EE",
+      "vehicle": "Vauxhall Insignia"
     }
-]
+  ],
+  "errors": [],
+  "meta": {
+    "delimiter": ",",
+    "linebreak": "\n",
+    "aborted": false,
+    "truncated": false,
+    "cursor": 1179,
+    "fields": [
+      "o;?\"phoneNo\"",
+      "firstName",
+      "lastName",
+      "email",
+      "address",
+      "vehicle"
+    ]
+  }
+}

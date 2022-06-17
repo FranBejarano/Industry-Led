@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Car Form</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script language="JavaScript">
+    function showInput() {
+        document.getElementById('display').innerHTML = 
+                    'Name: ' + document.getElementById("firstname").value + ' ' + document.getElementById("lastname").value +
+                    '<br>Email: ' + document.getElementById("email").value +
+                    '<br>Address: ' + document.getElementById("address").value +
+                    '<br>Vehicle: ' + document.getElementById("vehicle").value;
+    }
+    </script>
+    <style>
+      html, body {
+      min-height: 100%;
+      }
+      body, div, form, input, textarea, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      line-height: 22px;
+      }
+      h1 {
+      position: absolute;
+      margin: 0;
+      font-size: 32px;
+      color: #fff;
+      z-index: 2;
+      }
+      .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 20px;
+      }
+      .display {
+      display: flex;
+      justify-content: center;
+      align-items:flex-start;
+      height: inherit;
+      padding: 20px;
+      }
+      form {
+      width: 100%;
+      padding: 20px;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 0 10px 0 #747273; 
+      }
+      .banner {
+      position: relative;
+      height: 210px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+      .details {
+      position: relative;
+      height: 210px;
+      display: flex;
+      justify-content:start;
+      align-items:baseline;
+      text-align:justify;
+      width: auto;
+      }
+      .banner::after {
+      content: "";
+      background-color: #cc0052; 
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      }
+      input, textarea {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      }
+      label {
+      width: calc(100% - 12px);
+      padding: 5px;
+      margin-right: 10px;
+      }
+      .item:hover p, input:hover::placeholder {
+      color: #cc0052;
+      }
+      .item input:hover, .item textarea:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 6px 0 #cc0052;
+      color: #cc0052;
+      }
+      .item {
+      position: relative;
+      margin: 10px 0;
+      }
+      .btn-block {
+      margin-top: 10px;
+      text-align: center;
+      position: relative;
+      margin: 10px 0;
+      width: auto;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background: #cc0052;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background: #ff0066;
+      }
+      .subtitle {
+        font-weight: bold;
+        justify-content: flex-start;
+        width: auto;
+      }
+      @media (min-width: 568px) {
+      .name-item, .contact-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      }
+      .contact-item .item {
+      width: calc(50% - 8px);
+      }
+      .name-item input {
+      width: calc(50% - 20px);
+      }
+      .contact-item input {
+      width: calc(100% - 12px);
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="testbox">
+      <form>
+        <div class="banner">
+          <h1>Car Form</h1>
+        </div>
+        <div class="item">
+          <p>Name</p>
+          <div class="name-item">
+            <input type="text" name="firstname" placeholder="First" id="firstname" cy-data="firstname"/>
+            <input type="text" name="lastname" placeholder="Last" id="lastname" cy-data="lastname"/>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="item">
+            <p>Email</p>
+            <input type="text" name="name" id="email" cy-data="email"/>
+          </div>
+          <div class="item">
+            <p>Address</p>
+            <input type="text" name="name" id="address" cy-data="address"/>
+          </div>
+          <div class="item">
+            <p>Vehicle</p>
+            <input type="text" name="name" id="vehicle" cy-data="vehicle"/>
+          </div>
+        </div>  
+      </form>    
+    </div>
+    <div class="display">
+      <div class="btn-block">
+        <button type="button" class="button" onclick="showInput();">
+          Submit
+        </button>
+      </div>
+    </div>
+      <br>
+    <div class="details">
+      <label class="subtitle">Your input </label>
+      <br>
+      <div class="input">
+        <p><span id='display'></span></p>
+      </div>
+    </div>
+        
+      
+  </body>
+</html>
