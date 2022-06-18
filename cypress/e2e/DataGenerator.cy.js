@@ -369,7 +369,7 @@ describe('Generates data', () => {
 
     it('Generates, arranges and downloads a CSV file with the values required', () => {
         cy.get('#select-key-drop-basic')
-            .select('phoneNo')
+            .select('name')
         cy.get('#btn-add-prop')
             .click()
         cy.get('#select-key-drop-basic')
@@ -419,7 +419,7 @@ describe('Convert CSV file in JSON file', function(){
 
     it('Log the data from the CSV to the JSON file', function(){       
         allData.data.forEach(data =>{
-            cy.log(data.phoneNo)
+            cy.log(data.name)
             cy.log(data.firstName)
             cy.log(data.lastName)
             cy.log(data.email)
