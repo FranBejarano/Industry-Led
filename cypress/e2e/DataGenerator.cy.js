@@ -395,7 +395,7 @@ describe('Generates data', () => {
         cy.get('#btn-add-prop')
             .click()
         cy.get('#entries-input')
-            .type('10')
+            .type('5')
             cy.contains('Reset CSV').click()
             cy.contains('Generate CSV').click()
             cy.contains('Arrange CSV').click()
